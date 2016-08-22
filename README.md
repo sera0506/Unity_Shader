@@ -39,3 +39,19 @@ we scale and bias them so that the output colors are in a displayable 0 to 1 ran
 		Type Name : System semantic;
 		...
 	};
+
+#False Color  
+使用false color來可視化模型上的數據，例如：normal、tangent、紋理及頂點顏色。  
+  
+vertext data inputs are declared in a structure.
+vertext structures are defined in UnityCG.cginc  
+(you can find it in folder "\Editor\Data\CGIncludes")  
+
+
+在這裡input使用了UnityCG中的appdata_full  
+會發現他已經包含了所有模型資料
+
+![appdata_full](http://imgur.com/BuD5F75.jpg)
+
+![Result false color](http://imgur.com/JsOV78l.jpg)  
+完整教學可以參考Unity Documentation- [Providing vertex data to vertex programs](https://docs.unity3d.com/Manual/SL-VertexProgramInputs.html)
