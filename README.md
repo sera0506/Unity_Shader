@@ -30,3 +30,10 @@ vertex shader的輸出一定要有SV_POSITION,
 而我們在vert func中把normal vector由[-1, 1]映射到[0, 1]範圍中，
 並把獲得的color 數值丟給fragment shader來渲染。
 ![Result](http://imgur.com/JPqgwQq.jpg)
+
+###自訂義struct
+	struct StructName{
+		Type Name : System semantic;
+		Type Name : System semantic;
+		...
+	};
