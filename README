@@ -5,3 +5,12 @@ SV為System value的簡寫。
 
 SV_Position can be specified as an input to a vertex shader as well as an output. 
 Pixel shaders can only write to parameters with the SV_Depth and SV_Target system-value semantics.
+
+Prepare
+one material-SimpleShderMat
+one shader-SimpleShader
+one Sphere in scene. Shere has SimpleShaderMat.
+
+Result
+red Sphere
+
