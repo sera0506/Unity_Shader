@@ -1,1 +1,3 @@
-Hello GitHub!
+
+SV_Position can be specified as an input to a vertex shader as well as an output. 
+Pixel shaders can only write to parameters with the SV_Depth and SV_Target system-value semantics.
