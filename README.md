@@ -54,4 +54,6 @@ vertext structures are defined in UnityCG.cginc
 ![appdata_full](http://imgur.com/BuD5F75.jpg)
 
 ![Result false color](http://imgur.com/JsOV78l.jpg)  
+在有小數位數(Have decimal places)的圖中，會看到多出來的藍色區塊(o.color.b=0.5)  
+In Have decimal places picture, an additional blue tint has been applied to coordinates outside of the 0 to 1 range  
 完整教學可以參考Unity Documentation- [Providing vertex data to vertex programs](https://docs.unity3d.com/Manual/SL-VertexProgramInputs.html)
